@@ -1,0 +1,24 @@
+- Processor
+    32-bit register width (word)
+    32-bit address space
+
+    16 general purpose registers (+ PC and flags)
+    Stack pointer and base pointer
+    4 floating point registers
+
+    16-bit opcodes
+
+    little endian
+
+- Bus architecture
+    256 segments (0x100)
+    RAM will occupy segments 0x00-0xFC
+    Screen RAM will occupy segment 0xFD
+    Devices will occupy segment 0xFF
+
+- Memory
+    4,244,635,648 (0xFD000000) bytes
+
+- Screen
+
+- User/device input (interrupts)

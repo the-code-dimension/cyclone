@@ -1,0 +1,10 @@
+- Move instructions
+    page 0 - immediate moves (8, 16, 32-bit values, float, SP/BP)
+    page 1 - register to register moves (r0 -> r1, rf0 -> rf1, rX -> sp, rX -> bp, sp -> rX, bp -> X)
+
+- Arithmetic instructions
+
+- Logic/branching instructions
+
+- Misc. instructions
+    halt        0xFFFF
